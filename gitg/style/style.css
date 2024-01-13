@@ -1,0 +1,26 @@
+
+.formwrap {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+form {
+    padding: 10px;
+    text-align: center;
+}
+.button{
+    background-color: rgb(38, 128, 38);
+    color: white;
+    border: none;
+    opacity: 0.9;
+padding: 5px;}
+
+.input {
+    display: inline-block;
+    border: 2px;
+    background: #f1f1f1;} 
+
+@media only screen and (max-width: 620px){
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
